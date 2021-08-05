@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
 
   s.license =  { :type => 'MIT' }
   s.authors = 'Instagram'
+  s.static_framework = true
   s.social_media_url = 'https://twitter.com/fbOpenSource'
   s.source = {
     :git => 'https://github.com/Instagram/IGListKit.git',

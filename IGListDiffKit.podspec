@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
     :tag => s.version.to_s,
     :branch => 'stable'
   }
-
+  s.static_framework = true
   s.source_files = 'Source/IGListDiffKit/**/*.{h,m,mm}'
   s.private_header_files = 'Source/IGListDiffKit/Internal/*.h'
 

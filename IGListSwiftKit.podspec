@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   end
 
   s.requires_arc = true
-
+  s.static_framework = true
   s.swift_versions = ['4.0', '5.0', '5.1']
 
   s.ios.deployment_target = '9.0'
